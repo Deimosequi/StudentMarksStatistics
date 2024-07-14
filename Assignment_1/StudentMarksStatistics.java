@@ -5,29 +5,17 @@
  * @author (your name)
  * @version (a version number or a date)
  */
+
+import java.util.Scanner;
+
 public class StudentMarksStatistics
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-    /**
-     * Constructor for objects of class StudentMarksStatistics
-     */
-    public StudentMarksStatistics()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        // Inputing assignment name
+        System.out.print("Enter the assignment name: ");
+        //saving the name
+        String assignmentName = scanner.nextLine();
     }
 }
