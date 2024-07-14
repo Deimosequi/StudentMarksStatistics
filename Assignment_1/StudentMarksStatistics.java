@@ -20,35 +20,15 @@ public class StudentMarksStatistics
         String assignmentName = scanner.nextLine();
         
         //input student marks
-        //int[] marks = new int[30]; //creating an array that holds 30 elements
-        //for (int i = 0; i < 30; i++) {
-        //    while (true) {
-        //       System.out.print("Enter mark for student " + (i + 1) + " (0-30): ");
-        //        String input = scanner.next();
-        //        try {
-        //            int mark = Integer.parseInt(input); //this make sure the user enters a string that is a integer
-        //            if (mark >= 0 && mark <= 30) { //checking if the marks are between or equal to 0 and 30
-        //                marks[i] = mark; //push the current input to the array
-        //                break;
-        //            } else {
-        //                System.out.println("Invalid mark. Please enter a value between 0 and 30.");
-        //            }
-        //        } catch (NumberFormatException e) { //if its anything other than int type catch it and throw error
-        //            System.out.println("Invalid input. Please enter a valid mark.");
-        //        }
-        //    }
-        //}
-        // Input student marks TESTING
-        
-        int[] marks = new int[4];
-        for (int i = 0; i < 4; i++) {
+        int[] marks = new int[30]; //creating an array that holds 30 elements
+        for (int i = 0; i < 30; i++) {
             while (true) {
-                System.out.print("Enter mark for student " + (i + 1) + " (0-30): ");
+               System.out.print("Enter mark for student " + (i + 1) + " (0-30): ");
                 String input = scanner.next();
                 try {
                     int mark = Integer.parseInt(input); //this make sure the user enters a string that is a integer
-                    if (mark >= 0 && mark <= 4) {//checking if the marks are between or equal to 0 and 30
-                        marks[i] = mark;//push the current input to the array
+                    if (mark >= 0 && mark <= 30) { //checking if the marks are between or equal to 0 and 30
+                        marks[i] = mark; //push the current input to the array
                         break;
                     } else {
                         System.out.println("Invalid mark. Please enter a value between 0 and 30.");
