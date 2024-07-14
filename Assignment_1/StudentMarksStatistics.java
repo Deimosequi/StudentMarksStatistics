@@ -2,8 +2,8 @@
 /**
  * Write a description of class StudentMarksStatistics here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Stanislaus Dhanushka Gurusnghe)
+ * @version (2024/07/14)
  */
 import java.util.ArrayList;
 import java.util.Scanner;
